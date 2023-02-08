@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+    ></script>
+    <script defer src="index.js"></script>
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <!-- Main card -->
+    <main class="card">
+      <div class="card__img-container">
+        <img src="./images/icon-star.svg" alt="Star icon" class="card__img" />
+        <p class="warning">Please select a number</p>
+      </div>
+      <h1 class="card__heading">How did we do?</h1>
+      <p class="card__text">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+      <div class="card__rating-container">
+        <ul class="card__ratings">
+          <li class="card__rating">
+            <button class="card__btn">1</button>
+          </li>
+          <li class="card__rating">
+            <button class="card__btn">2</button>
+          </li>
+          <li class="card__rating">
+            <button class="card__btn">3</button>
+          </li>
+          <li class="card__rating">
+            <button class="card__btn">4</button>
+          </li>
+          <li class="card__rating">
+            <button class="card__btn">5</button>
+          </li>
+        </ul>
+      </div>
+      <button class="btn">Submit</button>
+    </main>
+
+    <!-- Thank you card -->
+
+    <div class="card-thanks hidden">
+      <img
+        src="./images/illustration-thank-you.svg"
+        alt="Phone image"
+        class="card-thanks__img"
+      />
+      <p class="card-thanks__select">You selected out of 5</p>
+
+      <h1 class="card-thanks__heading">Thank you!</h1>
+      <p class="card-thanks__text">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don't hesitate to get in touch!
+      </p>
+    </div>
+  </body>
+</html>
