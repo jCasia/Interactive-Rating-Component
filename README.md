@@ -25,3 +25,8 @@ The aim for this challenge was the user should be able to:
 - Flexbox
 - JavaScript + (a little bit of Gsap for the warning message)
 
+### Some screenshots of this challenge
+
+![](./images/rating1.png)
+![](./images/rating2.png)
+![](./images/rating2.png)
