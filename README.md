@@ -10,7 +10,6 @@ I added an extra feature using a little bit of gsap where if no number is select
 
 ### Overview - Interactive Rating Component
 
-
 The aim for this challenge was the user should be able to:
 
 - View the optimal layout for the app depending on their device's screen size
@@ -29,4 +28,4 @@ The aim for this challenge was the user should be able to:
 
 ![](./images/rating1.png)
 ![](./images/rating2.png)
-![](./images/rating2.png)
+![](./images/rating3.png)
